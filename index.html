@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada and Hong Kong</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Canada and Hong Kong Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#canada">Canada</a></li>
+                <li><a href="#hongkong">Hong Kong</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section id="about">
+            <h2>About Canada and Hong Kong</h2>
+            <p>Discover the unique aspects of Canada and Hong Kong, their cultures, major cities, and tourist attractions.</p>
+        </section>
+
+        <section id="canada">
+            <h2>Canada</h2>
+            <h3>General Information</h3>
+            <p>Canada is the second-largest country in the world, known for its natural beauty and multicultural cities.</p>
+            <h3>Major Cities</h3>
+            <ul>
+                <li>Toronto</li>
+                <li>Vancouver</li>
+                <li>Montreal</li>
+                <li>Calgary</li>
+            </ul>
+            <h3>Culture and Traditions</h3>
+            <p>Canada's culture is influenced by its diverse population and historical ties to Britain and France.</p>
+            <h3>Tourist Attractions</h3>
+            <ul>
+                <li>Niagara Falls</li>
+                <li>Banff National Park</li>
+                <li>CN Tower</li>
+                <li>Old Quebec</li>
+            </ul>
+        </section>
+
+        <section id="hongkong">
+            <h2>Hong Kong</h2>
+            <h3>General Information</h3>
+            <p>Hong Kong is a vibrant city known for its skyscrapers, harbour, and blend of Eastern and Western cultures.</p>
+            <h3>Major Districts</h3>
+            <ul>
+                <li>Central</li>
+                <li>Kowloon</li>
+                <li>New Territories</li>
+                <li>Victoria Peak</li>
+            </ul>
+            <h3>Culture and Traditions</h3>
+            <p>Hong Kong's culture is a unique mix of traditional Chinese practices and modern influences from its time as a British colony.</p>
+            <h3>Tourist Attractions</h3>
+            <ul>
+                <li>Victoria Harbour</li>
+                <li>Hong Kong Disneyland</li>
+                <li>The Peak</li>
+                <li>Temple Street Night Market</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <h3>Images of Canada</h3>
+            <img src="images/canada1.jpg" alt="Canada Image 1">
+            <img src="images/canada2.jpg" alt="Canada Image 2">
+            <h3>Images of Hong Kong</h3>
+            <img src="images/hongkong1.jpg" alt="Hong Kong Image 1">
+            <img src="images/hongkong2.jpg" alt="Hong Kong Image 2">
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Canada and Hong Kong Website</p>
+    </footer>
+</body>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5em 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+</style>
+</html>
+
